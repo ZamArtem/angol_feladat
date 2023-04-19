@@ -1,0 +1,93 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: white;
+    margin-top: 90px;
+}
+.box{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.home {
+    background-color: rgb(53, 53, 122);
+}
+li{
+    font: bold;
+    font-size: 20px;
+    display: inline;
+    background-color: rgb(53, 53, 122);
+    width: auto;
+    float: left;
+    text-decoration: none;
+}
+li a{
+    background-color: rgb(53, 53, 122);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 9px;
+    margin-right: 5px;
+}
+li a:hover{
+    background-color: #111;
+    opacity: 0.9;
+}
+ul {
+    background-color: #dddddd;
+}
+.active {
+    background-color: rgb(15, 146, 107);
+}
+.active:hover {
+    background-color: rgb(42, 71, 62);
+}
+ul {
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    list-style-type: none;
+}
+h1 {
+    text-align: center;
+    color: rgb(11, 13, 112);
+}
+.jobb {
+    position: fixed;
+    left: 0px;
+}
+p{
+    font-size: 20px;
+}
+.ball {
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+}
+#nagy{
+    height: 761;
+    width: 325px;
+}
+.fentjob {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 367px;
+    height: 551px;
+}
+.left {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 490px;
+    width: 485px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
